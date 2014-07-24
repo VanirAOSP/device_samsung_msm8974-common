@@ -26,7 +26,6 @@ TARGET_CPU_SMP := true
 
 TARGET_ARCH_VARIANT_FPU := neon-vfpv4
 TARGET_CPU_VARIANT := krait
-TARGET_ARCH_VARIANT_CPU := cortex-a15
 
 # Wifi related defines
 WIFI_BAND := 802_11_ABG
