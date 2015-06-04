@@ -1,6 +1,6 @@
 BOARD_SEPOLICY_DIRS += \
        device/samsung/msm8974-common/sepolicy/common \
-       device/samsung/msm8974-common/sepolicy/msm8960 \
+       device/samsung/msm8974-common/sepolicy/msm8974 \
        device/samsung/msm8974-common/sepolicy/test
 
 BOARD_SEPOLICY_UNION += \
