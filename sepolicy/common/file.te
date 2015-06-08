@@ -46,7 +46,7 @@ type thermal_socket, file_type;
 type sysfs_msmuart_file, sysfs_type, fs_type;
 
 # Storage RFS file types
-type rfs_data_file, file_type;
+type rfs_file, file_type;
 type rfs_system_file, file_type;
 type rfs_shared_hlos_file, file_type;
 
@@ -109,3 +109,10 @@ type mmi_data_file, file_type, data_file_type;
 # hbtp config file
 type hbtp_cfg_file, file_type;
 type hbtp_log_file, file_type;
+
+#bluetooth firmware file types
+type bt_firmware_file, fs_type, contextmount_type;
+
+#Define the files written during the operation of usf
+type usf_data_file, file_type, data_file_type;
+type persist_usf_file, file_type;
